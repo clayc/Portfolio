@@ -9,24 +9,115 @@
 
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    
+    <script type="text/javascript" src="http://fast.fonts.com/jsapi/8c302fa7-7a80-4b8b-a3d5-8d8fba4a7d13.js"></script>
+
+	<style type="text/css">
+		#leftBar{
+			margin-top: 0px;
+			margin-left: 0px;
+			height: 100%;
+			min-width: 180px;
+		}
+
+		#portfolioBoardImage{
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			max-height: 200px;
+			max-width: 200px;
+		}
+
+		#portfolioBoardHeadings{
+			font-family: "Futura", sans-serif;
+			text-align: center;
+		}
+
+		#portfolioBoardText{
+			font-family: "Futura", sans-serif;
+			text-align: center;
+		}
+
+		#siteTitle{
+			font-family: "Rockwell", serif;
+			font-weight: normal;
+		}
+
+		#categoryLinks{
+			font-family: "Futura", sans-serif;
+			font-size: 18px;
+
+		}
+
+		#portfolioBoard{
+			margin-top: 36px;
+		}
+
+	
+
+	</style>
+
 </head>
 <body>
-	<div class="row-fluid">
-		<div class="span2">
-			<div class="well sidebar-nav">
-				<ul class="nav nav-list">
-					<li class="nav-header">Projects</li>
-					<li class="active"><a href="#">PCU</a></li>
-					<li><a href="#">AAS</a></li>
-					<li><a href="#">OptimumK</a></li>
-					<li><a href="#">Actuators</a></li>
-					<li><a href="#">FSAE</a></li>
+	<div class="container-fluid" id="pageContainer">
+
+
+		<div class="row-fluid">
+			<div class="span2" id="leftBar">
+				<h1 id="siteTitle">Clay Corbett</h1>
+				<ul class="unstyled">
+					<li><a href="portfolio.html" id="categoryLinks">: portfolio</a></li>
 				</ul>
 			</div>
-		</div>
 
-		<div class="span10">
-			<h1>content</h1>
+			<div class="span9" id="portfolioBoard">
+				<ul class="thumbnails">
+					<li class="span3">
+						<div class="thumbnail">
+							<img src="img/LxD-Transparent-200x200.JPG" alt="">
+							<p id="portfolioBoardText">Active Air Suspension</p>
+						</div>
+					</li>
+
+					<li class="span3">
+						<div class="thumbnail">
+							<img src="img/LxD-Transparent-200x200.JPG" alt="">
+							<p id="portfolioBoardText">OptimumK</p>
+						</div>
+					</li>
+						
+					<li class="span3">
+						<div class="thumbnail">
+							<img src="img/PCU-200x200.jpg" alt="LxD Assembly" height="200px" id="portfolioBoardImage" />
+							<p id="portfolioBoardText">Pneumatic Control Units</p>
+						</div>
+					</li>
+					
+					<li class="span3">
+						<div class="thumbnail">
+							<img src="img/IMG_0370.jpg" alt="" id="portfolioBoardImage">
+							<p id="portfolioBoardText">Valves and Actuators</p>
+						</div>
+					</li>
+
+					<li class="span3">
+						<div class="thumbnail">
+							<img src="img/FSAE-200x200.JPG" alt="">
+							<p id="portfolioBoardText">Formula SAE</p>
+						</div>
+
+					<li class="span3">
+						<div class="thumbnail">
+							<img src="img/SwitchPlate-200x200.JPG" alt="">
+							<p id="portfolioBoardText">Switch Plates</p>
+						</div>
+					</li>
+
+
+				</ul>
+				
+			</div>
 		</div>
 	</div>
 
