@@ -15,7 +15,7 @@
 
 	<style type="text/css">
 		#leftBar{
-			margin-top: 15px;
+			margin-top: 10px;
 			margin-left: 0px;
 			height: 100%;
 			min-width: 180px;
@@ -36,26 +36,54 @@
 
 		#portfolioBoardText{
 			font-family: "Futura", sans-serif;
+
 			text-align: center;
 		}
 
 		#siteTitle{
 			font-family: "Rockwell", serif;
-			font-size: 56px;
 			font-weight: normal;
-			margin-top: 10px
+			font-size: 60px;
+			margin-top: 5px;
+			margin-bottom: 5px;
+			font-variant: small-caps;
+			color: #505050;
 		}
 
-		#categoryLinks{
+		#categoryLinks:link{
 			font-family: "Futura", sans-serif;
-			font-size: 28px;
+			font-weight: bold;
+			font-size: 16px;
 			margin-bottom: 10px;
+			color: #505050;
 
 		}
+
+		#categoryLinks:hover{
+			text-decoration: underline;
+		}
+
+		#categoryLinksActive{
+			font-family: "Futura", sans-serif;
+			font-style: italic;
+			font-weight: bold;
+			font-size: 18px;
+			margin-bottom: 10px;
+			color: #ff4500;
+
+		}
+
 
 		#portfolioBoard{
 			margin-top: 5px;
 		}
+
+
+		#pageContainer{
+			padding-left: 10px;
+		}
+
+
 
 	
 
@@ -69,10 +97,10 @@
 		<div class="row-fluid">
 			<div class="span2" id="leftBar">
 				
-				<ul class="unstyled">
-					<li id="categoryLinks"><a href="portfolio.html" id="categoryLinks">:portfolio</a></li>
-					<li id="categoryLinks"><a href="portfolio.html" id="categoryLinks">resume</a></li>
-					<li id="categoryLinks"><a href="portfolio.html" id="categoryLinks">contact</a></li>
+				<ul class="unstyled" id="linkTable">
+					<li><a href="index.html" id="categoryLinksActive">PORTFOLIO</a></li>
+					<li><a href="resume.html" id="categoryLinks">RESUME</a></li>
+					<li><a href="contact.html" id="categoryLinks">CONTACT</a></li>
 				</ul>
 			</div>
 
