@@ -16,9 +16,6 @@
 	<style type="text/css">
 		#leftBar{
 			margin-top: 10px;
-			margin-left: 0px;
-			height: 100%;
-			min-width: 180px;
 		}
 
 		#portfolioBoardImage{
@@ -43,6 +40,7 @@
 		body{
 			background-color: #505050;
 		}
+
 		#siteTitle{
 			font-family: "Rockwell", serif;
 			font-weight: normal;
@@ -51,6 +49,23 @@
 			margin-bottom: 5px;
 			font-variant: small-caps;
 			color: #FFFFFF;
+			line-height: 60px;
+			width: 800px;
+
+
+			/* Safari */
+			-webkit-transform: rotate(-90deg);
+
+			/* Firefox */
+			-moz-transform: rotate(-90deg);
+
+			/* IE */
+			-ms-transform: rotate(-90deg);
+
+			/* Opera */
+			-o-transform: rotate(-90deg);
+
+	
 		}
 
 		#categoryLinks:link{
@@ -83,11 +98,13 @@
 
 
 		#pageContainer{
-			margin-left: 25%;
-			margin-right: 25%;
+			margin-right: 15%;
 		}
 
-
+		#titleContainer{
+			height: 800px;
+			/*margin-left: -24%;*/
+		}
 
 	
 
@@ -96,64 +113,72 @@
 </head>
 <body>
 	<div class="container-fluid" id="pageContainer">
-		<h1 id="siteTitle">Clay Corbett</h1>
 
 		<div class="row-fluid">
-			<div class="span2" id="leftBar">
+			<div class="span1" id="titleContainer">
+				<h1 id="siteTitle">Clay Corbett</h1>
+			</div>	
+
+
+			<div class="row-fluid">
+
 				
-				<ul class="unstyled" id="linkTable">
-					<li><a href="index.html" id="categoryLinksActive">PORTFOLIO</a></li>
-					<li><a href="resume.html" id="categoryLinks">RESUME</a></li>
-					<li><a href="contact.html" id="categoryLinks">CONTACT</a></li>
-				</ul>
-			</div>
-
-			<div class="span9" id="portfolioBoard">
-				<ul class="thumbnails">
-					<li class="span3">
-						<div class="thumbnail">
-							<img src="img/LxD-Transparent-200x200.jpg" alt="">
-							<p id="portfolioBoardText">Active Air Suspension</p>
-						</div>
-					</li>
-
-					<li class="span3">
-						<div class="thumbnail">
-							<img src="img/LxD-Transparent-200x200.jpg" alt="">
-							<p id="portfolioBoardText">OptimumK</p>
-						</div>
-					</li>
-						
-					<li class="span3">
-						<div class="thumbnail">
-							<img src="img/PCU-200x200.jpg" alt="LxD Assembly" height="200px" id="portfolioBoardImage" />
-							<p id="portfolioBoardText">Pneumatic Control Units</p>
-						</div>
-					</li>
+				<div class="span1" id="leftBar">
 					
-					<li class="span3">
-						<div class="thumbnail">
-							<img src="img/IMG_0370.jpg" alt="" id="portfolioBoardImage">
-							<p id="portfolioBoardText">Valves and Actuators</p>
-						</div>
-					</li>
+					<ul class="unstyled" id="linkTable">
+						<li><a href="index.html" id="categoryLinksActive">PORTFOLIO</a></li>
+						<li><a href="resume.html" id="categoryLinks">RESUME</a></li>
+						<li><a href="contact.html" id="categoryLinks">CONTACT</a></li>
+					</ul>
+				</div>
 
-					<li class="span3">
-						<div class="thumbnail">
-							<img src="img/FSAE-200x200.jpg" alt="">
-							<p id="portfolioBoardText">Formula SAE</p>
-						</div>
+				<div class="span6" id="portfolioBoard">
+					<ul class="thumbnails">
+						<li class="span3">
+							<div class="thumbnail">
+								<img src="img/LxD-Transparent-200x200.jpg" alt="">
+								<p id="portfolioBoardText">Active Air Suspension</p>
+							</div>
+						</li>
 
-					<li class="span3">
-						<div class="thumbnail">
-							<img src="img/SwitchPlate-200x200.jpg" alt="">
-							<p id="portfolioBoardText">Switch Plates</p>
-						</div>
-					</li>
+						<li class="span3">
+							<div class="thumbnail">
+								<img src="img/LxD-Transparent-200x200.jpg" alt="">
+								<p id="portfolioBoardText">OptimumK</p>
+							</div>
+						</li>
+							
+						<li class="span3">
+							<div class="thumbnail">
+								<img src="img/PCU-200x200.jpg" alt="LxD Assembly" height="200px" id="portfolioBoardImage" />
+								<p id="portfolioBoardText">Pneumatic Control Units</p>
+							</div>
+						</li>
+						
+						<li class="span3">
+							<div class="thumbnail">
+								<img src="img/IMG_0370.jpg" alt="" id="portfolioBoardImage">
+								<p id="portfolioBoardText">Valves and Actuators</p>
+							</div>
+						</li>
+
+						<li class="span3">
+							<div class="thumbnail">
+								<img src="img/FSAE-200x200.jpg" alt="">
+								<p id="portfolioBoardText">Formula SAE</p>
+							</div>
+
+						<li class="span3">
+							<div class="thumbnail">
+								<img src="img/SwitchPlate-200x200.jpg" alt="">
+								<p id="portfolioBoardText">Switch Plates</p>
+							</div>
+						</li>
 
 
-				</ul>
-				
+					</ul>
+					
+				</div>
 			</div>
 		</div>
 	</div>
