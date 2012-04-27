@@ -1,0 +1,65 @@
+
+#leftBar{
+}
+
+#portfolioBoardImage{
+	display: block;
+}
+
+#portfolioBoardHeadings{
+	font-family: "Futura", sans-serif;
+	text-align: center;
+}
+
+#portfolioBoardText{
+	font-family: "Futura", sans-serif;
+	text-align: center;
+}
+
+#siteTitle{
+	font-family: "Rockwell", serif;
+	font-size: 42px;
+	font-variant: small-caps;
+	color: #444;
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+#categoryLinks:link{
+	font-family: "Futura", sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #aaa;
+	margin-left: 5px;
+
+}
+
+
+#categoryLinks:hover{
+	font-family: "Futura", sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #ccc;
+	margin-left: 5px;
+}
+
+#categoryLinksCurrent{
+	font-family: "Futura", sans-serif;
+	font-weight: bold;
+	font-size: 16px;
+	color: #cca500;
+	margin-left: 5px;
+}
+
+#subheading{
+	font-family: "Futura", sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+	color: #ff4500;
+}
+
+
+#portfolioItem{
+	/*border-style: none;*/
+	border-radius: 15px;
+}
