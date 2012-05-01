@@ -1,7 +1,9 @@
 
-#leftBar{
+body{
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
-
+    
 #portfolioBoardImage{
 	display: block;
 }
@@ -11,9 +13,22 @@
 	text-align: center;
 }
 
-#portfolioBoardText{
+#portfolioBoardTitle{
 	font-family: "Futura", sans-serif;
 	text-align: center;
+	color: #444;
+	font-size: 16px;
+	margin-bottom: 3px;
+}
+
+#portfolioBoardText{
+	font-family: sans-serif;
+	text-align: left;
+	color: #444;
+	font-size: 11px;
+	line-height: 120%;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 #siteTitle{
@@ -24,30 +39,22 @@
 	/*margin-bottom: 10px;*/
 }
 
-#categoryLinks:link{
+#categoryLinks{
 	font-family: "Futura", sans-serif;
 	font-weight: bold;
-	font-size: 16px;
-	color: #aaa;
+	font-size: 11px;
+	color: #fff;
 	margin-left: 5px;
 
 }
 
-
-#categoryLinks:hover{
+#categoryLinksSelected{
 	font-family: "Futura", sans-serif;
 	font-weight: bold;
-	font-size: 16px;
-	color: #ccc;
+	font-size: 11px;
+	color: orange;
 	margin-left: 5px;
-}
 
-#categoryLinksCurrent{
-	font-family: "Futura", sans-serif;
-	font-weight: bold;
-	font-size: 16px;
-	color: #cca500;
-	margin-left: 5px;
 }
 
 #subheading{
@@ -60,5 +67,5 @@
 
 #portfolioItem{
 	/*border-style: none;*/
-	border-radius: 15px;
+	border-radius: 3px;
 }

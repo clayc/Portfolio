@@ -32,54 +32,84 @@
 <body>
 
 
+
 	<div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
-				<a class="brand" id="siteTitle" href="#">Clay Corbett</a>
-				<ul class="nav">
-					<li class="active">
-						<a href="#portfolio">PORTFOLIO</a>
-					</li>
-					<li><a href="#resume">RESUME</a></li>
-					<li><a href="#contact">CONTACT</a></li>
-				</ul>
+				<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+          		</a>
+				<a class="brand pull-left" id="siteTitle" href="#">Clay Corbett</a>
+				<div class="nav-collapse">
+					<ul class="nav">
+						<li class="active">
+							<a id="categoryLinksSelected" href="#portfolio">PORTFOLIO</a>
+						</li>
+						<li><a id="categoryLinks" href="#resume">RESUME</a></li>
+						<li><a id="categoryLinks" href="#contact">CONTACT</a></li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="row">
-		<div class="span12">
-			<h1 id="siteTitle">Clay Corbett</h1>
-		</div>
-	</div>
+	
 
+	<div class="container">
+			<ul class="thumbnails">
+				<li class="span4">
+					<a href="portfolioItems/AAS.html">
+					<div class="thumbnail" id="portfolioItem">
+						<img src="img/LxD-Transparent-200x200.jpg" alt="">
+						<p id="portfolioBoardTitle">Active Air Suspension</p>
+					</div>
+				</li>
 
-	<div class="tabbable tabs-left"> 
-		<ul class="nav nav-tabs">
-	    	<li class="active"><a href="#portfolio" data-toggle="tab">PORTFOLIO</a></li>
-	    	<li><a href="#resume" data-toggle="tab">RESUME</a></li>
-	    	<li><a href="#contact" data-toggle="tab">CONTACT</a></li>
-	  	</ul>
-	 	<div class="tab-content">
-	    	<div class="tab-pane active" id="portfolio">
-	    		<div class="span12">
-		    		<div class="span5">
-			    		<img src="img/PCU-200x200.jpg" alt="LxD Assembly" height="200px" id="portfolioBoardImage" />
-			    	</div>
-			    	<div class="span5">
-			    		<img src="img/IMG_0370.jpg" alt="LxD Assembly" height="200px" id="portfolioBoardImage" />
-			    	</div>
-			    	<div class="span5">
-			    		<img src="img/IMG_0370.jpg" alt="LxD Assembly" height="200px" id="portfolioBoardImage" />
-			    	</div>
-			    </div>
-	    	</div>
-		    <div class="tab-pane" id="resume">
-		      	<p>Howdy, I'm in Section 2.</p>
-		    </div>
-		    <div class="tab-pane" id="contact">
-		      	<p>Howdy, I'm in Section 3.</p>
-		    </div>
-		 </div>
+				<li class="span4">
+					<a href="portfolioItems/OptimumK.html">
+						<div class="thumbnail" id="portfolioItem">
+							<img src="img/LxD-Transparent-200x200.jpg" alt="">
+							<p id="portfolioBoardTitle">OptimumK</p>
+						</div>
+					</a>
+				</li>
+					
+				<li class="span4">
+					<a href="portfolioItems/PCU.html">
+					<div class="thumbnail" id="portfolioItem">
+						<img src="img/PCU-290x217.jpg" alt="LxD Assembly"  id="portfolioBoardImage" />
+						<p id="portfolioBoardTitle">Pneumatic Control Units</p>
+						<p id="portfolioBoardText">
+							Air suspension system that decouples control of vehicle
+							ride height and spring stiffness and allows for active 
+							control of each. 
+					</div>
+				</li>
+				
+				<li class="span4">
+					<a href="portfolioItems/ValvesActuators.html">
+					<div class="thumbnail" id="portfolioItem">
+						<img src="img/LxD-290x217.jpg" alt="" id="portfolioBoardImage">
+						<p id="portfolioBoardTitle">Valves and Actuators</p>
+					</div>
+				</li>
+
+				<li class="span4">
+					<a href="portfolioItems/FSAE.html">
+					<div class="thumbnail" id="portfolioItem">
+						<img src="img/FSAE-290x217.jpg" alt="">
+						<p id="portfolioBoardTitle">Formula SAE</p>
+					</div>
+
+				<li class="span4">
+					<a href="portfolioItems/SwitchPlate.html">
+					<div class="thumbnail" id="portfolioItem">
+						<img src="img/SwitchPlate-290x217.jpg" alt="">
+						<p id="portfolioBoardTitle">Switch Plates</p>
+					</div>
+				</li>
+			</ul>
 	</div>
 
 	<!-- Le javascript
