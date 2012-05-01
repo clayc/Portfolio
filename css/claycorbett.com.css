@@ -15,8 +15,9 @@ body{
 
 #portfolioBoardTitle{
 	font-family: "Futura", sans-serif;
+	font-weight: bold;
 	text-align: center;
-	color: #444;
+	color: #fff;
 	font-size: 16px;
 	margin-bottom: 3px;
 }
@@ -24,11 +25,15 @@ body{
 #portfolioBoardText{
 	font-family: sans-serif;
 	text-align: left;
-	color: #444;
+	color: #fff;
 	font-size: 11px;
 	line-height: 120%;
-	padding-left: 25px;
-	padding-right: 25px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#portfolioBoardBackground{
+	background-color: :222;
 }
 
 #siteTitle{
@@ -67,5 +72,9 @@ body{
 
 #portfolioItem{
 	/*border-style: none;*/
-	border-radius: 3px;
+	/*border-radius: 5px;*/
+	box-shadow: 5px 5px 5px #888;
+	background-color: #022;
+	border-width: 2px;
+	border-color: #ddd;
 }
