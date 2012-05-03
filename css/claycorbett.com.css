@@ -15,21 +15,30 @@ body{
 
 #portfolioBoardTitle{
 	font-family: "Futura", sans-serif;
+	font-variant: "Condensed";
 	font-weight: bold;
 	text-align: center;
-	color: #fff;
-	font-size: 16px;
+	color: #222;
+	font-size: 18px;
+	line-height: 20px;
 	margin-bottom: 3px;
+	/*text-decoration: underline;*/
+	border-bottom-style: dotted;
+	border-width: 1px;
+	border-color: #999;
 }
 
 #portfolioBoardText{
-	font-family: sans-serif;
+	/*font-family: Verdana, 'Bitstream Vera Sans', sans-serif;*/
+	font-family: "Verdana", sans-serif;
 	text-align: left;
-	color: #fff;
+	color: #222;
 	font-size: 11px;
 	line-height: 120%;
 	padding-left: 20px;
 	padding-right: 20px;
+	text-align: justify;
+	text-justify: auto;
 }
 
 #portfolioBoardBackground{
@@ -57,7 +66,7 @@ body{
 	font-family: "Futura", sans-serif;
 	font-weight: bold;
 	font-size: 11px;
-	color: orange;
+	color: #FF9900;
 	margin-left: 5px;
 
 }
@@ -72,9 +81,14 @@ body{
 
 #portfolioItem{
 	/*border-style: none;*/
-	/*border-radius: 5px;*/
-	box-shadow: 5px 5px 5px #888;
-	background-color: #022;
-	border-width: 2px;
-	border-color: #ddd;
+	border-radius: 3px;
+	/*box-shadow: 2px 2px 6px 1px #888;*/
+	background-color: #fff;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #333;
+	box-shadow: none;
 }
