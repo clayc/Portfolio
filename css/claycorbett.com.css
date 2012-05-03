@@ -15,7 +15,7 @@ body{
 
 #portfolioBoardTitle{
 	font-family: "Futura", sans-serif;
-	font-variant: "Condensed";
+	/*font-variant: "Condensed";*/
 	font-weight: bold;
 	text-align: center;
 	color: #222;
@@ -26,6 +26,7 @@ body{
 	border-bottom-style: dotted;
 	border-width: 1px;
 	border-color: #999;
+	font-variant: small-caps;
 }
 
 #portfolioBoardText{
