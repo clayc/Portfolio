@@ -9,15 +9,10 @@ body{
 	margin-right: auto;
 }
 
-#portfolioBoardHeadings{
-	font-family: "Futura", sans-serif;
-	text-align: center;
-}
-
 #portfolioBoardTitle{
-	font-family: "Futura", sans-serif;
-	/*font-variant: "Condensed";*/
-	font-weight: bold;
+	font-family: "futura-pt", sans-serif;
+	font-style: normal;
+	font-weight: 700;
 	text-align: center;
 	color: #222;
 	font-size: 18px;
@@ -60,7 +55,7 @@ body{
 }
 
 #categoryLinks{
-	/*font-family: "futura-pt",sans-serif;*/
+	font-family: "futura-pt",sans-serif;
 	font-style: normal;
 	font-weight: 500;
 	/*font-family: "Futura", sans-serif;*/
