@@ -53,7 +53,7 @@ body{
 }
 
 #siteTitle{
-	font-family: "Rockwell", serif;
+	/*font-family: "Rockwell", serif;*/
 	font-variant: small-caps;
 	color: #777;
 	/*margin-top: 5px;*/
@@ -61,8 +61,11 @@ body{
 }
 
 #categoryLinks{
-	font-family: "Futura", sans-serif;
-	font-weight: bold;
+	/*font-family: "futura-pt",sans-serif;*/
+	font-style: normal;
+	font-weight: 500;
+	/*font-family: "Futura", sans-serif;*/
+	/*font-weight: bold;*/
 	font-size: 11px;
 	color: #fff;
 	margin-left: 5px;
@@ -70,21 +73,16 @@ body{
 }
 
 #categoryLinksSelected{
-	font-family: "Futura", sans-serif;
-	font-weight: bold;
+	font-family: "futura-pt",sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	/*font-family: "Futura", sans-serif;*/
+	/*font-weight: bold;*/
 	font-size: 11px;
 	color: #FF9900;
 	margin-left: 5px;
 
 }
-
-#subheading{
-	font-family: "Futura", sans-serif;
-	font-weight: bold;
-	font-size: 18px;
-	color: #ff4500;
-}
-
 
 #portfolioItem{
 	/*border-style: none;*/
