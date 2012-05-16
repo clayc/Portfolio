@@ -1,0 +1,105 @@
+body{
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+    
+#portfolioBoardImage{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#portfolioBoardTitle{
+	font-family: "futura-pt", "Futura", sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	text-align: center;
+	color: #222;
+	font-size: 18px;
+	line-height: 20px;
+	margin-bottom: 3px;
+	/*text-decoration: underline;*/
+	border-bottom-style: dotted;
+	border-width: 1px;
+	border-color: #999;
+	font-variant: small-caps;
+}
+
+#portfolioItemLink:hover{
+	text-decoration: none;	
+}
+
+#portfolioBoardText{
+	/*font-family: Verdana, 'Bitstream Vera Sans', sans-serif;*/
+	font-family: "Verdana", sans-serif;
+	text-align: left;
+	color: #222;
+	font-size: 11px;
+	line-height: 120%;
+	padding-left: 10px;
+	padding-right: 10px;
+	text-align: justify;
+	text-justify: auto;
+}
+
+#portfolioBoardBackground{
+	background-color: :222;
+}
+
+#siteTitle{
+	/*font-family: "Rockwell", serif;*/
+	font-variant: small-caps;
+	color: #777;
+	/*margin-top: 5px;*/
+	/*margin-bottom: 10px;*/
+}
+
+#categoryLinks{
+	font-family: "futura-pt", "Futura", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	/*font-family: "Futura", sans-serif;*/
+	/*font-weight: bold;*/
+	font-size: 11px;
+	color: #fff;
+	margin-left: 5px;
+
+}
+
+#categoryLinksSelected{
+	font-family: "futura-pt", "Futura", sans-serif;
+	font-style: normal;
+	font-weight: 500;
+	/*font-family: "Futura", sans-serif;*/
+	/*font-weight: bold;*/
+	font-size: 11px;
+	color: #FF9900;
+	margin-left: 5px;
+
+}
+
+#portfolioItem{
+	/*border-style: none;*/
+	border-radius: 0px;
+	/*box-shadow: 2px 2px 6px 1px #888;*/
+	background-color: #fff;
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #333;
+	box-shadow: none;
+}
+
+#mask{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 350px;
+	height: 100px;
+	background: #222;
+}
+
+.typekit-badge {display:none !important;}
+#mti_wfs_colophon {display:none !important;}
