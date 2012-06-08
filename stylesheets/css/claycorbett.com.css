@@ -11,12 +11,13 @@ body{
 
 #portfolioBoardTitle{
 	font-family: "futura-pt", "Futura", sans-serif;
+	/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
 	font-style: normal;
-	font-weight: 700;
+	font-weight: 400;
 	text-align: center;
 	color: #222;
-	font-size: 18px;
-	line-height: 20px;
+	font-size: 20px;
+	line-height: 22px;
 	margin-bottom: 3px;
 	/*text-decoration: underline;*/
 	border-bottom-style: dotted;
@@ -30,9 +31,8 @@ body{
 }
 
 #portfolioBoardText{
-	/*font-family: Verdana, 'Bitstream Vera Sans', sans-serif;*/
 	font-family: "Verdana", sans-serif;
-	text-align: left;
+	/*font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
 	color: #222;
 	font-size: 11px;
 	line-height: 120%;
@@ -42,24 +42,28 @@ body{
 	text-justify: auto;
 }
 
+#portfolioItemPageText{
+	font-family: "Verdana", sans-serif;
+	text-align: center;
+	color: #222;
+	font-size: 11px;
+	padding-bottom: 30px;
+}
+
 #portfolioBoardBackground{
 	background-color: :222;
 }
 
 #siteTitle{
-	/*font-family: "Rockwell", serif;*/
+	font-family: "Rockwell", serif;
 	font-variant: small-caps;
 	color: #777;
-	/*margin-top: 5px;*/
-	/*margin-bottom: 10px;*/
 }
 
 #categoryLinks{
 	font-family: "futura-pt", "Futura", sans-serif;
 	font-style: normal;
 	font-weight: 500;
-	/*font-family: "Futura", sans-serif;*/
-	/*font-weight: bold;*/
 	font-size: 11px;
 	color: #fff;
 	margin-left: 5px;
@@ -70,8 +74,6 @@ body{
 	font-family: "futura-pt", "Futura", sans-serif;
 	font-style: normal;
 	font-weight: 500;
-	/*font-family: "Futura", sans-serif;*/
-	/*font-weight: bold;*/
 	font-size: 11px;
 	color: #FF9900;
 	margin-left: 5px;
@@ -92,14 +94,13 @@ body{
 	box-shadow: none;
 }
 
-#mask{
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	width: 350px;
-	height: 100px;
-	background: #222;
+#portfolioItemPageImage{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 8px;
 }
+
 
 .typekit-badge {display:none !important;}
 #mti_wfs_colophon {display:none !important;}
