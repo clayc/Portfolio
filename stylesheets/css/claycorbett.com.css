@@ -50,8 +50,13 @@ body{
 	padding-bottom: 30px;
 }
 
-#portfolioBoardBackground{
-	background-color: :222;
+#contactPageText{
+	font-family: "Verdana", sans-serif;
+	text-align: center;
+	color: #222;
+	font-size: 32px;
+	padding-bottom: 30px;
+	font-weight: bold;
 }
 
 #siteTitle{
